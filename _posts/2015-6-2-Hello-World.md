@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome to Jekyll!
+tags: Jekyll CMS
 ---
 
 Welcome to Jekyll!
