@@ -287,3 +287,24 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+// Share pages css
+
+.share-page {
+    font-family: $helveticaNeue;
+    text-align: center;
+    background: $secondary-color;
+    color: $light-color;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 48px 0;
+
+    a {
+        color: #fff;
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px solid #fff;
+        }
+    }
+}
